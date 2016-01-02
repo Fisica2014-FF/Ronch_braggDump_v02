@@ -38,19 +38,19 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: ECLIPSE_MARS_PROJECT_CPP14
+all: Ronch_braggDump_v02
 
 # Tool invocations
-ECLIPSE_MARS_PROJECT_CPP14: $(OBJS) $(USER_OBJS)
+Ronch_braggDump_v02: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++  -o "ECLIPSE_MARS_PROJECT_CPP14" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++  -o "Ronch_braggDump_v02" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(OBJS)$(C++_DEPS)$(C_DEPS)$(CC_DEPS)$(CPP_DEPS)$(EXECUTABLES)$(CXX_DEPS)$(C_UPPER_DEPS) ECLIPSE_MARS_PROJECT_CPP14
+	-$(RM) $(OBJS)$(C++_DEPS)$(C_DEPS)$(CC_DEPS)$(CPP_DEPS)$(EXECUTABLES)$(CXX_DEPS)$(C_UPPER_DEPS) Ronch_braggDump_v02
 	-@echo ' '
 
 .PHONY: all clean dependents

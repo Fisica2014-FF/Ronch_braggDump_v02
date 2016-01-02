@@ -14,7 +14,7 @@ at the file end.
 
 ***
 Create a function "dump" taking as argument a reference to const-event
-and printing a dump on the screen.
+and printing a dump on the scre en.
 
 ***
 Create a function "clear" deleting the event and its content.
