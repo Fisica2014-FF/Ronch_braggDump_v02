@@ -70,7 +70,7 @@ void dump(const Event& ev) {
 	return;
 }
 
-int main() {
+int main(int argc, char* argv[]) {
 	using namespace std;
 
 	//Read file name, see DBG macro at the start.

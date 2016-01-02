@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/ECLIPSE_MARS_PROJECT_CPP11.cpp 
+../src/bD_02_main.cpp 
 
 OBJS += \
-./src/ECLIPSE_MARS_PROJECT_CPP11.o 
+./src/bD_02_main.o 
 
 CPP_DEPS += \
-./src/ECLIPSE_MARS_PROJECT_CPP11.d 
+./src/bD_02_main.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
