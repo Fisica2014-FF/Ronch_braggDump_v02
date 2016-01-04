@@ -25,9 +25,14 @@ int main(int argc, char* argv[]) {
 	DBG(const char* filename = "./bragg_events.txt";
 		, const char* filename = argv[1];)
 
-	//Open file
+	//Try to open the file and check the stream.
 	ifstream ifs(filename);
+	if (!ifs) {
+		cerr << "[ERROR] File not opened";
+		return -1;
+	}
 
+	//Dump variables
 	Event* event;
 	while (ifs) {
 		event = read(ifs);

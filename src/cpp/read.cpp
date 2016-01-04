@@ -10,7 +10,7 @@
 
 #include "../Event.h"
 
-
+// Read a new Event from file ifs and return a pointer to it.
 Event* read(std::ifstream& ifs) {
 	using namespace std;
 

@@ -9,10 +9,11 @@
 
 #include "../Event.h"
 
-
+// Print to standard output the Event ev.
 void dump(const Event& ev) {
 	using namespace std;
 
+	// If the event has no energy points it is invalid
 	if (ev.number_of_points == 0)
 		return;
 
