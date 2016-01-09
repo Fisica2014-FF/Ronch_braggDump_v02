@@ -40,6 +40,7 @@ int main(int argc, char* argv[]) {
 			dump(*event);
 			clear(event);
 		}
+		cout << endl;
 	}
 
 	return 0;
